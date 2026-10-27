@@ -12,10 +12,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata = {
+  metadataBase: new URL("https://clear-counter.vercel.app"),
   title: "Free Word Counter & Reading Time Calculator | ClearCount",
   description:
     "Count words, characters, sentences, paragraphs and reading time instantly with ClearCount. Free, private and easy to use.",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 
