@@ -13,7 +13,7 @@ type Stats = {
 };
 
 const SAMPLE =
-  "Clear writing starts with a clear goal. Paste your essay here, set a word limit, and track your progress as you write. You can select a sentence or paragraph to count only that part of your text.";
+  "Clear writing starts with a clear goal. Paste your essay here, set a word limit, and track your progress as you write. You can select a sentence or paragraph to count only that part of your text. By the way, I also want to tell nailao, I love you.";
 
 // Intl.Segmenter handles words in languages that don't use spaces (e.g. Chinese).
 // Character counting uses Unicode code points (emoji sequences may count as multiple code points).
@@ -113,7 +113,7 @@ export default function Home() {
         </header>
 
         <div className="mb-4">
-          <h1 className="text-xl font-bold tracking-tight sm:text-2xl">Free Online Word Counter</h1>
+          <h1 className="text-xl font-bold tracking-tight sm:text-2xl">Online Word Counter, free forever</h1>
           <p className="mt-1 text-sm text-slate-600">Count words, check text length, and meet your writing goal instantly.</p>
         </div>
 
